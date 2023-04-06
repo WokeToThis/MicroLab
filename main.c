@@ -42,19 +42,6 @@ void create_table(char* table){
     table[25] = 25;
 }
 
-void test_1(){
-	char word[20] = "19sAdf+G5\{}";
-	
-	char table[26];
-	create_table(table);
-	
-	int y = hash(word, table);
-	printf("1st output: %d\n");
-	
-	
-	
-}
-
 
 int main(void)
 {
